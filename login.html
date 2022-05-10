@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design for Bootstrap</title>
+    <!--  icon website-->
+    <link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/76af4bd25c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+
+<!-- Start your project here-->  
+<nav>
+    <div class="logo">
+        <img src="./img/Linkedin-Logo-2011-2019.png" alt="Linkedin-Logo" class="img-fluid">
+    </div>
+</nav>
+<section>
+        <div class="cent">
+            <h1>تسجيل الدخول</h1>
+            <p>ابق علي اطلاع على أحدث اخبار عالمك الاحترافي</p>
+            <form onsubmit="return logn();">
+                <input type="text" placeholder="البريد الالكتروني أو رقم الهاتف" name="email" id="email">
+                <p id="erroremail">برجاء إدخال عنوان بريدك الإلكتروني أو رقم الهاتف الجوال.</p>
+                <input type="password" placeholder="كلمة المرور" name="password" id="password">
+                <p id="errorpass">يرجى إدخال كلمة المرور.</p>
+                <a href="#" class="whtpas">هل نسيت كلمة المرور؟</a>
+                <button type="submit">تسجيل الدخول</button>
+            </form>
+            <p class="or" id="ors">أو</p>
+            <hr>
+            <div class="btnab">
+                <a href="#" class="btns">
+                    <i class="fa-brands fa-google"></i>
+                    تسجيل الدخول عبر Google
+                </a>
+                <a href="#" class="btns">
+                    <i class="fa-brands fa-apple"></i>
+                    تسجيل الدخول عبر Apple
+                </a>
+            </div>
+        </div>
+        <p class="new">عضو جديد على LinkedIn؟ <a href="./signup.html">انضم الآن</a></p>
+</section>
+<footer>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 d-lg-flex d-md-flex d-sm-none foot">
+        <img src="./img/LinkedIn-Wordmark-Black-Logo.wine.svg">
+        <p>© 2022</p>
+        <a href="#">اتفاقية المستخدم</a>
+        <a href="#">سياسة الخصوصية</a>
+        <a href="#">إرشادات المجتمع</a>
+        <a href="#">سياسة ملفات تعريف الارتباط</a>
+        <a href="#">سياسة حقوق النشر</a>
+        <a href="#">إرسال تقييم</a>
+        <a href="#">
+            اللغة
+            <i class="fa-solid fa-angle-down"></i>
+        </a>
+        </div>
+    </div>
+    </div>
+</footer>
+<!-- End your project here-->
+
+<!-- jQuery -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- Your custom scripts (optional) -->
+<script src="./js/login.js"></script>
+
+</body>
+</html>
